@@ -65,13 +65,13 @@ To run the application, follow these steps:
     *   **Windows:**
 
         ```bash
-        npx wrangler d1 execute noted -e development
+        npx wrangler d1 execute noted --file schema.sql -e development
         ```
 
     *   **Linux/macOS:**
 
         ```bash
-        npx wrangler d1 execute noted -e development
+        npx wrangler d1 execute noted --file schema.sql -e development
         ```
 
 4.  **Start the worker in development mode:**
